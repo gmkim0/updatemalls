@@ -60,5 +60,4 @@ if __name__ == '__main__':
             time.sleep(2)
         time.sleep(60) # 60초 간격으로 체크
         s += 1
-        if s % 30 == 0:
-            bot.sendMessage(chat_id, "제대로 동작하는지 확인하기 위한 코드입니다.)
+        bot.sendMessage(chat_id, "제대로 동작하는지 확인하기 위한 코드입니다.", s)
