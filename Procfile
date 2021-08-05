@@ -1,1 +1,1 @@
-worker: python gmkim0/updatemalls/main.py
+web: gunicorn updatemalls.wsgi --log-file -
