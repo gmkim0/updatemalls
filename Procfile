@@ -1,1 +1,1 @@
-worker: python main.py
+worker: python gmkim0/updatemalls/main.py
