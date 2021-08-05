@@ -1,5 +1,5 @@
 selenium==3.141.0
 bs4
-telegram==0.0.1
+telegram
 time
 re
