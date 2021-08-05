@@ -1,0 +1,5 @@
+selenium==3.141.0
+BeautifulSoup==4.9.3
+telegram==0.0.1
+time
+re
