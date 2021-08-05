@@ -1,1 +1,1 @@
-web: gunicorn updatemalls.wsgi --log-file -
+web: python main.py
