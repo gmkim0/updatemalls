@@ -53,7 +53,7 @@ if __name__ == '__main__':
                 globals()['last_{}'.format(브랜드명)] = globals()['new_{}'.format(브랜드명)]
                 if s == 0:
                     continue
-                bot.sendMessage(chat_id, "[업데이트 알림]{} \n {}".format(브랜드명, url,)
+                bot.sendMessage(chat_id, "[업데이트 알림]{} \n {}".format(브랜드명, url))
                 print(브랜드명, "결과 : update 되었습니다!", "상품명 : {} -> {}".format(a, globals()['new_{}'.format(브랜드명)]))
             else:
                 print(브랜드명, "결과 : update 되지 않았습니다.")
