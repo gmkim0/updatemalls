@@ -24,7 +24,7 @@ brand_dict = {'TIME' : 'http://www.thehandsome.com/ko/b/br01',
 r = re.compile('onclick=\'GA_Event\("브랜드_메인","상품_NEW","(.*?)"\)')
 
 # 크롬 드라이버
-driver_path = r'C:\Users\gm960\Desktop\chromedriver_win32\chromedriver'
+driver_path = '/app/.chromedriver/bin/chromedriver'
 driver = webdriver.Chrome(driver_path)
 
 # Telegram : token
