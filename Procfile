@@ -1,1 +1,1 @@
-worker: python send_message.py
+web: python updatemalls/main.py runserver "0.0.0.0:$PORT" 
